@@ -1,19 +1,12 @@
 package com.turnos.agendadoc.services.base;
 
-import com.turnos.agendadoc.models.base.Base;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-
-import java.io.Serializable;
 import java.util.List;
 
-public interface BaseService <E extends Base, ID extends Serializable>{
-
-    public List<E> findAll() throws Exception ;
-    public Page<E> findAll(Pageable pageable) throws Exception;
-    public E findById(ID id) throws Exception;
-    public E save(E entity) throws Exception;
-    public E update(ID id, E entity) throws Exception;
-    public boolean delete(ID id) throws Exception;
-
+public interface BaseService <D, DC, DE, ID>{
+    public D save (DC dc);
+    public D findById(ID id);
+    public List<D> findAll();
+    public D update(ID id,DE de);
+    public void deleteById(ID id);
 }
+

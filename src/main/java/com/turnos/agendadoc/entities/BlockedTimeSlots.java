@@ -1,6 +1,6 @@
-package com.turnos.agendadoc.models;
+package com.turnos.agendadoc.entities;
 
-import com.turnos.agendadoc.models.base.Base;
+import com.turnos.agendadoc.entities.base.Base;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;

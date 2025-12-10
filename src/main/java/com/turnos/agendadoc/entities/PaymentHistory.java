@@ -1,7 +1,7 @@
-package com.turnos.agendadoc.models;
+package com.turnos.agendadoc.entities;
 
-import com.turnos.agendadoc.models.base.Base;
-import com.turnos.agendadoc.models.enums.PaymentStatus;
+import com.turnos.agendadoc.entities.base.Base;
+import com.turnos.agendadoc.entities.enums.PaymentStatus;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;

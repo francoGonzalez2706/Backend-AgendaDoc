@@ -1,4 +1,4 @@
-package com.turnos.agendadoc.models.base;
+package com.turnos.agendadoc.entities.base;
 
 import jakarta.persistence.*;
 import lombok.Data;

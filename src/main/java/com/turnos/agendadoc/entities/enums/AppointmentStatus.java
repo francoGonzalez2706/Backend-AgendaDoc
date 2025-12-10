@@ -1,4 +1,4 @@
-package com.turnos.agendadoc.models.enums;
+package com.turnos.agendadoc.entities.enums;
 
 public enum AppointmentStatus {
     SCHEDULED,

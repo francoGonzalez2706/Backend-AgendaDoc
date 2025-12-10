@@ -34,6 +34,12 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-data-jpa-test")
 	testImplementation("org.springframework.boot:spring-boot-starter-security-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    // MAPSTRUCT
+    implementation("org.mapstruct:mapstruct:1.5.5.Final")
+    annotationProcessor("org.mapstruct:mapstruct-processor:1.5.5.Final")
+
+    // Si usas Lombok
+    annotationProcessor("org.projectlombok:lombok-mapstruct-binding:0.2.0")
     // SWAGGER
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0")
 

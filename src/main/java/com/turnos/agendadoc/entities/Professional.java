@@ -1,4 +1,4 @@
-package com.turnos.agendadoc.models;
+package com.turnos.agendadoc.entities;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;

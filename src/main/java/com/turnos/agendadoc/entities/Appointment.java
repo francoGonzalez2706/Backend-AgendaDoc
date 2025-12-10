@@ -1,8 +1,8 @@
-package com.turnos.agendadoc.models;
+package com.turnos.agendadoc.entities;
 
-import com.turnos.agendadoc.models.base.Base;
-import com.turnos.agendadoc.models.enums.AppointmentStatus;
-import com.turnos.agendadoc.models.enums.AppointmentType;
+import com.turnos.agendadoc.entities.base.Base;
+import com.turnos.agendadoc.entities.enums.AppointmentStatus;
+import com.turnos.agendadoc.entities.enums.AppointmentType;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;

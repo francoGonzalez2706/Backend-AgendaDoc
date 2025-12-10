@@ -1,6 +1,6 @@
-package com.turnos.agendadoc.models;
+package com.turnos.agendadoc.entities;
 
-import com.turnos.agendadoc.models.enums.Gender;
+import com.turnos.agendadoc.entities.enums.Gender;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
