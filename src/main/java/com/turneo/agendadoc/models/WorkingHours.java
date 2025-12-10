@@ -35,7 +35,7 @@ public class WorkingHours extends Base {
     private LocalTime endTime;
     
     @NotNull
-    @Column(name = "is_active", nullable = false, )
+    @Column(name = "is_active", nullable = false)
     private Boolean isActive = true;
 }
 
