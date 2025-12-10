@@ -34,6 +34,11 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-data-jpa-test")
 	testImplementation("org.springframework.boot:spring-boot-starter-security-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    // SWAGGER
+    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0")
+
+// H2 DATABASE
+    runtimeOnly("com.h2database:h2")
 }
 
 tasks.withType<Test> {
